@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Weather App</title>
+
+    <script src="https://kit.fontawesome.com/573c30ead1.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+
+
+    <script src="./jquery.easy-autocomplete.min.js"></script>
+
+
+    <link rel="stylesheet" href="./easy-autocomplete.min.css">
+
+
+    <!-- <link rel="stylesheet" href="./easy-autocomplete.themes.min.css"> -->
+
+
+</head>
+
+<body>
+    <div class="app-main">
+        <div class="searchInputBox">
+            <input type="text" id="input-box" class="input-box" placeholder="Enter city name..." autocomplete="off">
+        </div>
+
+        <div class="weather-body">
+            <div class="location-details">
+                <div class="city" id="city">Enter Location Above</div>
+                <div class="lati" id="lati">Lati</div>
+                <div class="longi" id="longi">longi</div>
+
+                <div class="date" id="date"></div>
+            </div>
+
+            <div class="weather-status">
+                <div class="temp" id="temp" onclick="convertTemp()" style="cursor: pointer;">TBDC</div>
+                <div class="min-max" id="min-max">TBD&deg;C (min) / TBD&deg;C (max)</div>
+                <br>
+                <div class="weather" id="weather">Clear</div>
+                <div id="img">
+                    <br>
+                    <i id="weatherIcon" class="fas fa-bolt"></i>
+                </div>
+            </div>
+            <div class="other-status">
+                <div class="pressure" id="pressure">pressure</div>
+                <div class="humidity" id="humidity">humidity</div>
+                <!-- <div class="pollution" id="pollution">pollution</div> -->
+            </div>
+
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
