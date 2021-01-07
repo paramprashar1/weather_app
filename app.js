@@ -3,7 +3,7 @@
 var isC = true;
 
 const weatherApi = {
-    key: "ab7eec1138d5848e493b6e3b3c2547fe",
+    key: "YOUR API KEY",
     baseUrl: "https://api.openweathermap.org/data/2.5/weather",
 }
 
@@ -176,7 +176,7 @@ function dateManage(dateArg) {
 // http://api.openweathermap.org/data/2.5/air_pollution/forecast?lat=${x2temp}&lon=${y2temp}&appid=${weatherApi.key}
 
 function getPollutionReport(x2temp, y2temp) {
-    fetch(`http://api.openweathermap.org/data/2.5/air_pollution?lat=30.9&lon=75.85&appid=ab7eec1138d5848e493b6e3b3c2547fe
+    fetch(`http://api.openweathermap.org/data/2.5/air_pollution?lat=30.9&lon=75.85&appid=YOUR API KEY
     `)
         .then(air_pollution => {
             return air_pollution.json();
