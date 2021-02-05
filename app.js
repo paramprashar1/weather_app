@@ -3,7 +3,7 @@
 var isC = true;
 
 const weatherApi = {
-    key: "YOUR API KEY",
+    key: "ab7eec1138d5848e493b6e3b3c2547fe",
     baseUrl: "https://api.openweathermap.org/data/2.5/weather",
 }
 
