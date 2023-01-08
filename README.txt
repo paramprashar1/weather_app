@@ -1,4 +1,4 @@
-<b> https://pp-weather-app.netlify.app/</b>
+Visit: https://pp-weather-app.netlify.app/
 Readme:
 
 Made by: Param Prashar 101706112 TIET, Patiala
